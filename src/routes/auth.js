@@ -1,3 +1,4 @@
+const role = "ADMIN";
 router.post('/authlogin', async (req, res) => {
    const token = jwt.sign(
       { userId: user.id, role: user.role },
