@@ -1,4 +1,4 @@
-router.post('/login', async (req, res) => {
+router.post('/authlogin', async (req, res) => {
    const token = jwt.sign(
       { userId: user.id },
       process.env.JWT_SECRET,
