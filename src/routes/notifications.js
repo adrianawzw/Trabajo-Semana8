@@ -3,3 +3,9 @@ function sendEmailNotification() {
 }
 
 sendEmailNotification();
+
+function MostrarNotisBell() {
+    console.log("Mostrar campana de notificacion...");
+}
+
+showNotificationBell();
